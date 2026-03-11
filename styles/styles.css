@@ -7,8 +7,16 @@ header img:hover {
     transform: matrix(1, 0.3, 0, 1, 0, 50) translateX(500px) scale(1.5);
 }
 
+main ul {
+    display: grid;
+    justify-items: center;
+}
+li {
+    
+}
 
-.social a {
+
+.social img {
     width: 50px;
 }
 
