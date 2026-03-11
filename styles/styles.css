@@ -8,7 +8,9 @@ header img:hover {
 }
 
 
-
+.social a {
+    width: 50px;
+}
 
 
 /*Test Comment*/
