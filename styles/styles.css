@@ -2,3 +2,35 @@
 header img {
     width: 200px;
 }
+
+body{
+    margin: 0;
+}
+
+footer{
+    width: 100%;
+    background-color: gray;
+    padding: 40px 0;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    gap: 15px;
+}
+
+.social a{
+    justify-content: center;
+}
+
+footer .logo{
+    width: 10px;
+    height: auto;
+    justify-content: center;
+
+}
