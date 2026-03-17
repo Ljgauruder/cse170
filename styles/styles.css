@@ -1,58 +1,24 @@
 /* Webpage CSS file */
 
-header img {
-    width: 200px;
-}
 
-body{
-    margin: 0;
-}
-
-footer{
-    width: 100%;
-    background-color: gray;
-    padding: 40px 0;
-    justify-content: space-between;
-    box-sizing: border-box;
-    align-items: center;
-    text-align: center;
-}
-
-.social{
-    display: flex;
-    justify-content: right;
-    width: 100%;
-    gap: 15px;
-}
-
-.social a{
-    justify-content: center;
-}
-
-footer .logo{
-    width: 10px;
-    height: auto;
-    justify-content: center;
-
-}
 
 
 .ranchers-regular {
-  font-family: "Ranchers", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Ranchers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 /*header CSS*/
-    header {
-        display: grid;
-        grid-template-columns: 100px 1fr;
-        justify-items: center;
-    }
-    header img {
-        width: 100px;
-        transition: transform 1s;
-    }
-    header img:hover {
+header {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    justify-items: center;
+}
+header img {
+    width: 100px;
+    transition: transform 1s;
+}
+header img:hover {
         transform: matrix(1, 0.3, 0, 1, 0, 50) translateX(500px) scale(1.5);
     }
     header h1 {
@@ -62,8 +28,13 @@ footer .logo{
     hr {
         width: 99%;
     }
-
+    
 /*body CSS*/
+
+    body{
+        margin: 0;
+    }
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -104,6 +75,33 @@ footer .logo{
         width: 50px;
     }
 
+    footer{
+        width: 100%;
+        background-color: gray;
+        padding: 40px 0;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .social{
+        display: flex;
+        justify-content: right;
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .social a{
+        justify-content: center;
+    }
+    
+    footer .logo{
+        width: 10px;
+        height: auto;
+        justify-content: center;
+    
+    }
 
 /*Test Comment*/
 
