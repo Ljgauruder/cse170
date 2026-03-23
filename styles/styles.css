@@ -22,9 +22,10 @@
 } */
     header h1 {
         font-family: 'Ranchers';
-          letter-spacing: 1px;
-          margin-right: 3em;
+        letter-spacing: 1px;
+        margin-right: 3em;
     }
+    header h2 {
         letter-spacing: 1px;
         position: absolute;
         justify-self: center;
